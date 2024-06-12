@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "us-est-1" # Specify your desired region
-}
 
 data "aws_subnet" "existing_subnet" {
   id = "subnet-06ac653833db86d12" # Replace with the ID of your existing subnet
